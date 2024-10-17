@@ -239,7 +239,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/fikre4231",
+    source_code_link: "https://mern-ecommerc.onrender.com/",
   },
   {
     name: "Netflix Clone",
