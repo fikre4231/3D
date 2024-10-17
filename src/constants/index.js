@@ -20,12 +20,17 @@ import {
   tesla,
   shopify,
   carrent,
+  // netflix,
   jobit,
   tripguide,
   threejs,
   // twitter,
 } from "../assets";
 // import {twitter} from "../assets/company/twitter";
+import netflix from '../assets/netflix.jpg'
+import Twitter from '../assets/Twitter.jpg'
+import ecommerce from '../assets/e-commerce.webp'
+import authencation from '../assets/authenction.webp'
 
 export const navLinks = [
   {
@@ -217,8 +222,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/fikre4231",
+    image: Twitter,
+    source_code_link: "https://twitter-clone-1-i7fg.onrender.com",
   },
   {
     name: "E-commerce Shop",
@@ -238,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ecommerce,
     source_code_link: "https://mern-ecommerc.onrender.com/",
   },
   {
@@ -259,9 +264,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: netflix,
     source_code_link: "https://github.com/fikre4231",
   },
+  { 
+    name: "Auth Clone",
+    description:
+      "Experience unlimited As a tech enthusiast, I developed a MERN stack authentication system that combines MongoDB, Express.js, React, and Node.js. This project emphasizes secure user registration and login processes, employing JWTs for authentication and bcrypt for password hashing. I’m passionate about building efficient, user-friendly web applications that prioritize security. with our Netflix cloneAs a tech enthusiast, I developed a MERN stack authentication system that combines MongoDB, Express.js, React, and Node.js. This project emphasizes secure user registration and login processes, employing JWTs for authentication and bcrypt for password hashing. I’m passionate about building efficient, user-friendly web applications that prioritize security., offering a vast library of movies, TV shows, and original content. Enjoy personalized recommendations, user-friendly interface, and seamless viewing across all devices.",
+    tags: [
+      {
+        name: "react js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "Green-text-gradient",
+      },
+    ],
+    image: authencation ,
+    source_code_link: "https://auth-jpk9.onrender.com/",
+  },
+  
   
 ];
 
