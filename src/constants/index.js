@@ -21,16 +21,18 @@ import {
   shopify,
   carrent,
   // netflix,
-  jobit,
-  tripguide,
+  // jobit,
+  // tripguide,
   threejs,
   // twitter,
 } from "../assets";
 // import {twitter} from "../assets/company/twitter";
-import netflix from '../assets/netflix.jpg'
+// import netflix from '../assets/netflix.jpg'
 import Twitter from '../assets/Twitter.jpg'
 import ecommerce from '../assets/e-commerce.webp'
 import authencation from '../assets/authenction.webp'
+import zoom from '../assets/zoom.png'
+// import link from '../assets/link.png'
 
 export const navLinks = [
   {
@@ -246,27 +248,27 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://mern-ecommerc.onrender.com/",
   },
-  {
-    name: "Netflix Clone",
-    description:
-      "Experience unlimited streaming with our Netflix clone, offering a vast library of movies, TV shows, and original content. Enjoy personalized recommendations, user-friendly interface, and seamless viewing across all devices.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: netflix,
-    source_code_link: "https://github.com/fikre4231",
-  },
+  // {
+  //   name: "Netflix Clone",
+  //   description:
+  //     "Experience unlimited streaming with our Netflix clone, offering a vast library of movies, TV shows, and original content. Enjoy personalized recommendations, user-friendly interface, and seamless viewing across all devices.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: netflix,
+  //   source_code_link: "https://github.com/fikre4231",
+  // },
   { 
     name: "Auth Clone",
     description:
@@ -287,6 +289,27 @@ const projects = [
     ],
     image: authencation ,
     source_code_link: "https://auth-jpk9.onrender.com/",
+  },
+  { 
+    name: "Zoom Clone",
+    description:
+      "A Zoom clone is a video conferencing platform that replicates the features of Zoom, allowing users to host virtual meetings, webinars, and online classes. It typically includes functionalities like screen sharing, chat, breakout rooms, and recording options, catering to businesses, educators, and individuals seeking seamless online communication.",
+    tags: [
+      {
+        name: "next js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "Green-text-gradient",
+      },
+    ],
+    image: zoom ,
+    source_code_link: "https://yitbarekyoom.netlify.app",
   },
   
   

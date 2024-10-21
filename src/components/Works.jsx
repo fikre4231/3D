@@ -6,6 +6,7 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { github } from "../assets";
+import link from "../assets/link.png"
 // import { fadeIn , textVariant } from '../utils/motion'
 
 const ProjectCard = ({
