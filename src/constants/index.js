@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  // carrent,
   // netflix,
   // jobit,
   // tripguide,
@@ -32,6 +32,7 @@ import Twitter from '../assets/Twitter.jpg'
 import ecommerce from '../assets/e-commerce.webp'
 import authencation from '../assets/authenction.webp'
 import zoom from '../assets/zoom.png'
+import apple from '../assets/apple.png'
 // import link from '../assets/link.png'
 
 export const navLinks = [
@@ -270,25 +271,25 @@ const projects = [
   //   source_code_link: "https://github.com/fikre4231",
   // },
   { 
-    name: "Auth Clone",
+    name: "APPle",
     description:
-      "Experience unlimited As a tech enthusiast, I developed a MERN stack authentication system that combines MongoDB, Express.js, React, and Node.js. This project emphasizes secure user registration and login processes, employing JWTs for authentication and bcrypt for password hashing. I’m passionate about building efficient, user-friendly web applications that prioritize security. with our Netflix cloneAs a tech enthusiast, I developed a MERN stack authentication system that combines MongoDB, Express.js, React, and Node.js. This project emphasizes secure user registration and login processes, employing JWTs for authentication and bcrypt for password hashing. I’m passionate about building efficient, user-friendly web applications that prioritize security., offering a vast library of movies, TV shows, and original content. Enjoy personalized recommendations, user-friendly interface, and seamless viewing across all devices.",
+      "Creating an Apple website clone involves replicating its sleek, minimalist design and user-friendly interface. Focus on high-quality images, clean layouts, and intuitive navigation. Incorporate sections for product showcases, features, and customer support. Ensure responsiveness across devices, emphasizing a seamless experience while highlighting your unique offerings to stand out in the tech market.",
     tags: [
       {
-        name: "react js",
+        name: "Next js",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Threejs and Gasp",
+        color: "Titanium",
       },
       {
         name: "Tailwind css",
         color: "Green-text-gradient",
       },
     ],
-    image: authencation ,
-    source_code_link: "https://auth-jpk9.onrender.com/",
+    image: apple ,
+    source_code_link: "https://iphone-nwe.onrender.com/",
   },
   { 
     name: "Zoom Clone",
