@@ -32,7 +32,7 @@ import Twitter from '../assets/Twitter.jpg'
 import ecommerce from '../assets/e-commerce.webp'
 import authencation from '../assets/authenction.webp'
 import zoom from '../assets/zoom.png'
-import apple from '../assets/apple.png'
+import apple from '../assets/apple.jpg'
 // import link from '../assets/link.png'
 
 export const navLinks = [
